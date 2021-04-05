@@ -1,0 +1,13 @@
+.category {
+    margin-bottom: .5rem;  
+    cursor: pointer;  
+}
+
+.category:hover {
+    background-image: linear-gradient(to right, #e1e2e5, #d4dae3);
+    border-right: 3px solid var(--main-color);
+}
+
+.category > p {
+    padding: 2px .2rem;
+}

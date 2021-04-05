@@ -1,0 +1,47 @@
+.header > .container{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .MuiSvgIcon-root, .header p {
+    color: grey;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    background-color: #fff !important;
+    height: 50px;
+    width: 50px;
+}
+
+.header__leftInfo {
+    margin-left: .5rem;
+}
+
+.header__leftInfo > p {
+    font-size: 14px;
+}
+
+.header__right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__right .MuiSvgIcon-root {
+    margin-right: .5rem;
+}
+
+.header__right > div:first-child {
+    margin-right: 3rem;
+}
+
+.header__right > div {
+    display: flex;
+}
+

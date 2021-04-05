@@ -1,0 +1,27 @@
+.products {
+    border-right: 1px solid lightgrey;
+    border-left: 1px solid lightgrey;
+    height: 100vh;
+    padding: 1rem;
+    flex: .6;
+}
+
+.products__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.products__header {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.products__header > span {
+    background-color: var(--main-color);
+    padding: 0 7px;
+    border-radius: .3rem;
+    color: #fff;
+    margin-left: 1rem;
+}
+

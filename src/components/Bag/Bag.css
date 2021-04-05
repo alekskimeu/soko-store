@@ -1,0 +1,31 @@
+.bag {
+    flex: .2;
+    padding: 1rem;
+}
+
+.bag__header {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.bag__header > span {
+    background-color: var(--main-color);
+    padding: 0 7px;
+    border-radius: .3rem;
+    color: #fff;
+    margin-left: 1rem;
+}
+
+.bag__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bag__info > .MuiSvgIcon-root {
+    height: 100px !important;
+    display: inline-block;
+    font-size: 10rem !important;
+}

@@ -1,0 +1,24 @@
+.categories {
+    padding: 1rem 0;
+    flex: .3;
+}
+
+.more-categories {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    color: var(--link-color);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.more-categories .MuiSvgIcon-root {
+    fill: currentColor;
+    width: .7em;
+    height: .7em;
+    font-size: 1.5rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+    margin-left: 1rem;
+}
