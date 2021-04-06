@@ -1,7 +1,7 @@
 .products {
     border-right: 1px solid lightgrey;
     border-left: 1px solid lightgrey;
-    padding: 1.8rem 1rem .5rem 1rem;
+    padding: 1.8rem 1.8rem .5rem 1.8rem;
     flex: .6;
 }
 

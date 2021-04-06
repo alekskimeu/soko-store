@@ -1,0 +1,147 @@
+.details {
+    margin: 1rem 0;
+    display: flex;
+}
+
+.details__img {
+    margin-right: 2rem;
+}
+
+.details__img > img{
+    width: 400px;
+    height: 350px;
+    border-radius: .5rem;
+}
+
+.selectors {
+    display: flex;
+    justify-content: center;
+}
+
+.selectors li {
+    margin-right: 1rem;
+    font-size: 30px;
+}
+
+.selectors li {
+    color: #bed1ef;
+}
+
+.selectors > .active {
+    color: var(--main-color);
+}
+
+.details__info {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+
+.details__header > h4 {
+    margin-bottom: .5rem;
+}
+
+.details__info > p {
+    color: gray;
+}
+
+.details__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details__price > p {
+    font-weight: bold;
+}
+
+.details__price > span {
+    color: #fff;
+    background-color: var(--discount-color);
+    padding: 0 .8rem;
+    border-radius: .3rem;
+    margin-left: 3rem;
+    font-size: small;
+}
+
+.details_quantity > .to-cart{
+    border: 2px solid var(--main-color);
+    padding: 0 .5rem;
+    border-radius: .3rem;
+    background-color:#c8d8f1;
+}
+
+.minus, .add {
+    padding: 0 .3rem;
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.quantity {
+    background-color: #fff;
+    padding: 0 .5rem;
+}
+
+.details__cta {
+    padding-bottom: 3rem;
+}
+
+.details__cta > button {
+    margin-right: 1.5rem;
+    border-radius: .3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cta__bag {
+    border: 2px solid var(--main-color);
+    padding: .6rem 3rem;
+    color: var(--main-color);
+}
+
+.cta__buy {
+    background-color:  var(--secondary-color);
+    color: var(--main-color);
+    border: none;
+    padding: .8rem 4rem;
+}
+
+.details__discount {
+    text-decoration: line-through;
+    color: gray;
+    font-size: small;
+}
+
+.related__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.related__header > h4 {
+    color: gray;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.related__products {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.nav-icon .MuiSvgIcon-root {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 5px 8px;
+    color: #fff;
+}
+
+.inactive {
+    background-color: lightgray;
+}
+
+.active {
+    background-color: var(--main-color);
+}

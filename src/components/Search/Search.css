@@ -18,13 +18,14 @@
     border-top-left-radius: .3rem;
     border-bottom-left-radius: .3rem;
     flex: 1;
+    background-color: lightgrey;
 }
 
 .search > .MuiSvgIcon-root {
     background-color: var(--secondary-color);
     border-top-right-radius: .3rem;
     border-bottom-right-radius: .3rem;
-    font-size: 1.9rem;
+    font-size: 2rem;
     height: 2.2rem;
     color: var(--primary-color);
 }
