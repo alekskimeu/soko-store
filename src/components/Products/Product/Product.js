@@ -13,18 +13,12 @@ const Product = ({ product: { image, title, price, discount } }) => {
             <div className="product__info">
                 <div>
                     <h5>{title}</h5>
-                    <div className="product__infoFooter">
-                        <div>
-                            <p>{price}</p>
-                            {discount ? <p className="price__discount">{price}</p> : null}
-                        </div>                        
-                        <a href="" className="add-to-cart">
-                            <AddIcon /> Add
-                        </a>
-                    </div>
+                    <p className="price">{price}</p>
+                    {discount ? <p className="price__discount">{price}</p> : null}
                 </div>
-                
-            
+                <button className="add-to-cart">
+                    <AddIcon /> Add
+                </button>
             </div>
         </div>
     )

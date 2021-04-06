@@ -1,0 +1,13 @@
+.services {
+    background-color: var(--main-color);
+    padding: 3rem 0;
+}
+
+.services .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+}

@@ -1,0 +1,30 @@
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 8%;
+    top: 4.5rem;
+    width: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.search > input {
+    padding: .5rem;
+    flex: .3;
+    height: 2.2rem;
+    border: none;
+    outline-width: 0;
+    border-top-left-radius: .3rem;
+    border-bottom-left-radius: .3rem;
+    flex: 1;
+}
+
+.search > .MuiSvgIcon-root {
+    background-color: var(--secondary-color);
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    font-size: 1.9rem;
+    height: 2.2rem;
+    color: var(--primary-color);
+}

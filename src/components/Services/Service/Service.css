@@ -1,0 +1,19 @@
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service:nth-child(2) {
+    margin: 0 5rem;
+}
+
+.service .MuiSvgIcon-root {
+    color: var(--secondary-color);
+    font-size: 3rem;
+}
+
+.service > p {
+    color: #fff;
+}

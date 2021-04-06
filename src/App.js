@@ -1,4 +1,4 @@
-import { Header, Categories, Products, Bag } from './components'
+import { Header, Search, Categories, Products, Bag, Services, Footer } from './components'
 
 import './App.css';
 
@@ -7,6 +7,7 @@ function App() {
     <div className="app">
       <div className="app__header">
         <Header />
+        <Search />
       </div>
       <div className="app__main">
         <div className="container">
@@ -14,7 +15,8 @@ function App() {
           <Products />
           <Bag />
         </div>
-        
+        <Services />
+        <Footer />
       </div>
      
     </div>

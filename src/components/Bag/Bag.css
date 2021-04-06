@@ -1,11 +1,11 @@
 .bag {
     flex: .2;
-    padding: 1rem;
+    padding: 1.8rem 1rem .5rem 1rem;
 }
 
 .bag__header {
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 
 .bag__header > span {

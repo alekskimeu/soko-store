@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.footer > h5:first-child {
+    text-transform: uppercase;
+    color: grey;
+    margin-bottom: .6rem;
+}
+
+.footer h5:nth-child(2) {
+    font-size: 20px;
+}

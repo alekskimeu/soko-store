@@ -1,5 +1,12 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    position: relative;
+}
+
 .header > .container{
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,8 +23,8 @@
 
 .logo {
     background-color: #fff !important;
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
 }
 
 .header__leftInfo {

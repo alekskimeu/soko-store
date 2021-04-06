@@ -1,8 +1,7 @@
 .products {
     border-right: 1px solid lightgrey;
     border-left: 1px solid lightgrey;
-    height: 100vh;
-    padding: 1rem;
+    padding: 1.8rem 1rem .5rem 1rem;
     flex: .6;
 }
 
@@ -14,7 +13,7 @@
 
 .products__header {
     font-weight: bold;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 
 .products__header > span {
