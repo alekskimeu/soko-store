@@ -1,0 +1,11 @@
+.banner {
+    background-color: var(--main-color);
+    padding: .3rem 0;
+}
+
+.banner p {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+}

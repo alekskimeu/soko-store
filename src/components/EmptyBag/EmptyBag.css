@@ -1,0 +1,27 @@
+.empty__bag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.empty__bag > .MuiSvgIcon-root {
+    font-size: 10rem;
+}
+
+.empty__bag > h4 {
+    margin-top: 2rem;
+}
+
+.back-home {
+    margin-top: 2rem;
+    padding: .6rem 2.4rem;
+    border: none;
+    outline-width: 0;
+    color: var(--main-color);
+    background-color: var(--secondary-color);
+    font-weight: bold;
+    border-radius: .5rem;
+    cursor: pointer;
+}

@@ -1,13 +1,9 @@
 .app {
-    margin: .5rem 0;
+    margin-bottom: .5rem;
 }
 
 .app__main {
     border-top: 1px solid lightgrey;
-}
-
-.app__main > .container {
-    
 }
 
 

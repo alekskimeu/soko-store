@@ -6,13 +6,14 @@
 }
 
 .header > .container{
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 1rem;
 }
 
-.header .MuiSvgIcon-root, .header p {
+.header .MuiSvgIcon-root, .header a {
     color: grey;
 }
 
@@ -38,17 +39,25 @@
 .header__right {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header__right .MuiSvgIcon-root {
     margin-right: .5rem;
 }
 
-.header__right > div:first-child {
+.header__right div a:first-child {
     margin-right: 3rem;
 }
 
-.header__right > div {
+.header__right div a {
     display: flex;
+    align-items: center;
+}
+
+.nav-active {
+    background-color: #bed1ef;
+    border-radius: 1rem;
+    padding: .2rem .4rem;
 }
 

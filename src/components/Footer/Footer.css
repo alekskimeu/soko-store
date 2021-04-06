@@ -4,6 +4,9 @@
     justify-content: center;
     align-items: center;
     padding: 1.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 37%;
 }
 
 .footer > h5:first-child {

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { IconButton } from '@material-ui/core'
 import LocalMallIcon from '@material-ui/icons/LocalMall'
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
@@ -21,13 +22,17 @@ const Header = () => {
             </div>
             <div className="header__right">
                 <div>
-                    <LocalMallIcon />
-                    <p>Bag</p>
+                    <Link to="/my-bag" className="nav-active">
+                        <LocalMallIcon />
+                        Bag
+                    </Link>
                 </div>
-                <div>
-                    <ShoppingCartIcon />
-                    <p>Orders</p>
-                </div>
+                    <div>
+                        <Link>
+                            <ShoppingCartIcon />
+                            Orders
+                        </Link>                            
+                    </div>
                 </div>
             </div>
         </div>
