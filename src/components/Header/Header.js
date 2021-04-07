@@ -5,6 +5,8 @@ import LocalMallIcon from '@material-ui/icons/LocalMall'
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import HomeIcon from '@material-ui/icons/Home';
 
+import MenuItem from '../MenuItem/MenuItem'
+
 import './Header.css'
 
 const Header = () => {
@@ -20,19 +22,9 @@ const Header = () => {
                     <p>Cham Towers, Plot 12 Nkruma Rd, Kampala, Ug</p>
                 </div>
             </div>
-            <div className="header__right">
-                <div>
-                    <Link to="/my-bag" className="nav-active">
-                        <LocalMallIcon />
-                        Bag
-                    </Link>
-                </div>
-                    <div>
-                        <Link>
-                            <ShoppingCartIcon />
-                            Orders
-                        </Link>                            
-                    </div>
+                <div className="header__right">
+                    <MenuItem icon={<LocalMallIcon/>} title="Bag" className="nav-active" />
+                    <MenuItem icon={<ShoppingCartIcon/>} title="Orders" />
                 </div>
             </div>
         </div>
