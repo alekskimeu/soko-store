@@ -18,7 +18,7 @@ html {
 
 body {
   font-family: 'Titillium Web', sans-serif;
-  background-color: #e6e6e6;
+  background-color: whitesmoke;
 }
 
 a {
@@ -27,6 +27,6 @@ a {
 
 .container {
   width: 96vw;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: auto;
 }

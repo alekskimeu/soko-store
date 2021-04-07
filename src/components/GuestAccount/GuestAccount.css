@@ -84,7 +84,7 @@
 .deliveryAddress {
     display: flex;
     margin-right: 2rem;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .deliveryAddress p {
@@ -93,9 +93,71 @@
 
 .guestAccount .payment {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .guestAccount .payment p {
     color: gray;
+}
+
+.delivery__cards {
+    display: flex;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+}
+
+.delivery__cards .card {
+    border: 1px solid lightgray;
+    padding: 1rem;
+    border-radius: .5rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.delivery__cards .card:first-child {
+    flex: .5;
+}
+
+.delivery__cards .card-new {
+    flex: .5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delivery__cards .card-new > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.delivery__check {
+    fill: var(--main-color);
+}
+
+.change-delivery {
+    display: flex;
+}
+
+.change-delivery > p {
+    margin-right: 1rem;
+}
+
+.add-address {
+    color: var(--main-color);
+    padding: .4rem .5rem;
+    border-radius: .3rem;
+    border: 1px solid var(--main-color);
+    cursor: pointer;
+}
+
+.place-order {
+    padding: .5rem 4rem;
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+    font-weight: bold;
+    border-radius: .3rem;
+    border: none;
 }
