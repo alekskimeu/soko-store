@@ -1,0 +1,10 @@
+.menu a {
+    display: flex;
+    align-items: center;
+}
+
+.nav-active {
+    background-color: #bed1ef;
+    border-radius: 1rem;
+    padding: .2rem .4rem;
+}

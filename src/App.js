@@ -1,5 +1,5 @@
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
-import { Banner, Header, Home, Services, ProductDetails, Footer, EmptyBag } from './components'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { Banner, Header, Home, ProductDetails, EmptyBag, GuestBag } from './components'
 
 import './App.css';
 
@@ -18,6 +18,9 @@ function App() {
               
               <Route path="/product:id" component={ProductDetails} />
               <Route path="/my-bag" component={EmptyBag} />
+              <div className="bag-container">
+                <Route path="/guest-bag" component={GuestBag} />
+              </div>
             </div>
             </Switch>
         </div>     

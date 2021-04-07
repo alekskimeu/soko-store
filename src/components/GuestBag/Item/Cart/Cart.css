@@ -1,0 +1,40 @@
+.cart {
+    color: gray;
+    font-weight: bold;
+}
+
+.cart__subTotal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart__delivery {
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem 0;
+    border-bottom: 1px dashed gray;
+    padding-bottom: 1.5rem;
+}
+
+.cart__delivery > span {
+    color: #1fbf1f;
+}
+
+.cart__total {
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+}
+
+.cart > small {
+    font-style: italic;
+    font-weight: normal;
+    font-size: small;
+}
+
+.cart__message {
+    border-top: 1px dashed gray;
+    margin-top: 1rem;
+    color: #1fbf1f;
+    padding-top: 1rem;
+}

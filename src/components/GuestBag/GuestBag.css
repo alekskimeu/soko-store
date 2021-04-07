@@ -1,0 +1,31 @@
+.guest {
+    display: flex;
+    justify-content: space-between;
+}
+
+.guestBag {
+    flex: .5;
+    border-left: 1px solid lightgray;
+    height: 100vh;
+    padding: 2rem;
+}
+
+.guestBag__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.guestBag__header h4 > span {
+    background-color: var(--main-color);
+    margin-left: 1rem;
+    padding: 0 .5rem;
+    border-radius: .3rem;
+    color: #fff;
+}
+
+.guestBag__header > a {
+    text-decoration: underline;
+    font-weight: bold;
+    color: gray;
+}

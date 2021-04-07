@@ -8,6 +8,7 @@
 
 .empty__bag > .MuiSvgIcon-root {
     font-size: 10rem;
+    color: lightgrey;
 }
 
 .empty__bag > h4 {

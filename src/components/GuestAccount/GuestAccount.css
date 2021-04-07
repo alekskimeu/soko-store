@@ -1,0 +1,101 @@
+.guestAccount {
+    flex: 1;
+    display: flex;
+    padding-top: 1rem;
+    flex-direction: column;
+}
+
+.deliveryAddress {
+    margin: 4rem 0;
+}
+
+.info__headerNumber {
+    display: flex;
+    align-items: flex-start;
+}
+
+.guestAccount .title {
+    margin-right: 2rem;
+    border-radius: 50%;
+    padding: .5rem;
+    width: 2.5rem;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;    
+    background-color: gray;
+    position: relative;
+}
+
+.guestAccount .active {
+    background-color: var(--main-color);
+}
+
+.info__headerContent {
+    margin-bottom: 2rem;
+}
+
+.info__headerContent > p {
+    color: gray;
+}
+
+.account__infoHeader > small {
+    margin-left: 4rem;
+}
+
+.account__login {
+    margin-left: 4rem;
+    display: flex;
+    margin-top: .5rem;
+}
+
+.account__login > p {
+    border: 1px solid gray;
+    border-right: none;
+    padding: .4rem;
+    border-top-left-radius: .3rem;
+    border-bottom-left-radius: .3rem;
+    font-weight: bold;
+}
+
+.account__login > input {
+    border: 1px solid gray;
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    border-left: none;
+    padding: .4rem;
+    flex: .4;
+    font-weight: bold;
+    outline-width: 0;
+}
+
+.account__login > button {
+    flex: .2;
+    margin-left: 1rem;
+    border: none;
+    outline-width: 0;
+    background-color: #d4d4d4;
+    border-radius: .3rem;
+    padding: .8rem;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}
+
+.deliveryAddress {
+    display: flex;
+    margin-right: 2rem;
+    align-items: center;
+}
+
+.deliveryAddress p {
+    color: gray;
+}
+
+.guestAccount .payment {
+    display: flex;
+    align-items: center;
+}
+
+.guestAccount .payment p {
+    color: gray;
+}
