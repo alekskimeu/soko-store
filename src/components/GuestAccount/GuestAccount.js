@@ -34,7 +34,7 @@ const GuestAccount = () => {
                             {loggedIn ?
                                 <span>&#10003;</span>  : 1}
                         </div>
-                    <div className="info__headerContent">
+                    <div className="info__headerContent" style={{ marginBottom: loggedIn ? ".5rem" : "2rem"}}>
                         <h3>Account</h3>
                             {loggedIn ? <p>You are securely logged in.</p> : <p>To place your order, login by entering your 10 digit mobile number</p>}
                         </div>
@@ -58,7 +58,7 @@ const GuestAccount = () => {
                 </div>
             </div>
 
-            <div className="deliveryAddress">
+            <div className="deliveryAddress" style={{marginBottom: loggedIn ? ".5rem" : "2rem" }}>
                 <div className="title" style={{backgroundColor: loggedIn ? "var(--main-color)" : "lightgray"}}>
                     {loggedIn ? <span>&#10003;</span> : 2 }
                 </div>
@@ -103,7 +103,7 @@ const GuestAccount = () => {
                 </div>
             : null}
 
-            <div className="payment">
+            <div className="payment" style={{marginTop: deliveryConfirmed ? "4rem" : ""}}>
                 <div className="title" style={{backgroundColor: delivery ? "var(--main-color)" : "lightgray"}}>
                     3
                 </div>

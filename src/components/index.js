@@ -9,6 +9,7 @@ export { default as Bag } from './Bag/Bag'
 export { default as EmptyBag } from './EmptyBag/EmptyBag'
 export { default as GuestBag } from './GuestBag/GuestBag'
 export { default as GuestAccount } from './GuestAccount/GuestAccount'
+export { default as CheckOut } from './CheckOut/CheckOut'
 export { default as Services } from './Services/Services'
 export { default as Footer } from './Footer/Footer'
 

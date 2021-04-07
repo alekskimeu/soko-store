@@ -30,10 +30,6 @@
     background-color: var(--main-color);
 }
 
-.info__headerContent {
-    margin-bottom: 2rem;
-}
-
 .info__headerContent > p {
     color: gray;
 }

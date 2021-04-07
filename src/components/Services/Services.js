@@ -2,7 +2,7 @@ import React from 'react'
 import Service from './Service/Service'
 import LocalShippingIcon from '@material-ui/icons/LocalShipping';
 import StarsIcon from '@material-ui/icons/Stars';
-import HourglassEmptyIcon from '@material-ui/icons/HourglassEmpty';
+import LoopIcon from '@material-ui/icons/Loop';
 
 import './Services.css'
 
@@ -12,7 +12,7 @@ const Services = () => {
             <div className="container">
                 <Service icon={<LocalShippingIcon />} title="Fast Delivery" />
                 <Service icon={<StarsIcon />} title="Buyer Protection" />            
-                <Service icon={<HourglassEmptyIcon />} title="Customer Support" /> 
+                <Service icon={<LoopIcon />} title="Customer Support" /> 
             </div>
                        
         </div>

@@ -1,0 +1,43 @@
+.checkout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 81vh;
+}
+
+.checkout > .MuiSvgIcon-root {
+    font-size: 8rem;
+    margin-bottom: 1rem;
+    color: #c83632;
+}
+
+.checkout > small {
+    margin-top: .5rem;
+    color: gray;
+    margin-bottom: 1rem;
+}
+
+.checkout > p {
+    margin-bottom: 1rem;
+}
+
+.checkout__cta a {
+    border-radius: .3rem;
+}
+
+.checkout__track {
+    margin-right: 1rem;
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: small;
+    padding: .2rem 2rem;
+}
+
+.checkout__back {
+    background-color: var(--secondary-color);
+    color: var(--main-color);
+    font-weight: bold;
+    padding: .3rem 2rem;
+}

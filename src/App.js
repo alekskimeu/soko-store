@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import { Banner, Header, Home, ProductDetails, EmptyBag, GuestBag } from './components'
+import { Banner, Header, Home, ProductDetails, EmptyBag, GuestBag, CheckOut } from './components'
 
 import './App.css';
 
@@ -14,10 +14,10 @@ function App() {
         <div className="app__main">
             <Switch>
             <Route path="/" exact component={Home} />
-            <div className="container">
-              
+            <div className="container">              
               <Route path="/product:id" component={ProductDetails} />
               <Route path="/my-bag" component={EmptyBag} />
+              <Route path="/checkout" component={CheckOut} />
               <div className="bag-container">
                 <Route path="/guest-bag" component={GuestBag} />
               </div>
