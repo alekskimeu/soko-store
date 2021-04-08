@@ -36,6 +36,12 @@
     font-size: 14px;
 }
 
+@media(max-width: 700px){
+    .header__leftInfo {
+        display: none;
+    }
+}
+
 .header__right {
     display: flex;
     justify-content: space-between;
@@ -49,5 +55,3 @@
 .header__right div a:first-child {
     margin-right: 3rem;
 }
-
-

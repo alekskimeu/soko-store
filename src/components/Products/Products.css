@@ -24,3 +24,19 @@
     margin-left: 1rem;
 }
 
+
+@media(max-width: 800px) {
+    .products {
+        border-left: none;
+        border-right: none;
+        flex: 1;
+    }
+}
+
+@media(max-width: 600px){
+    .products__list {
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-columns: 1fr 1fr;
+    }
+}

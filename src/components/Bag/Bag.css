@@ -3,6 +3,12 @@
     padding: 1.8rem 1rem .5rem 1rem;
 }
 
+@media(max-width: 800px){
+    .bag {
+        display: none;
+    }
+}
+
 .bag__header {
     font-weight: bold;
     margin-bottom: .5rem;

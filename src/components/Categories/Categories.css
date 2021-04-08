@@ -3,6 +3,12 @@
     flex: .3;
 }
 
+@media(max-width: 800px){
+    .categories {
+        display: none;
+    }
+}
+
 .more-categories {
     display: flex;
     align-items: center;

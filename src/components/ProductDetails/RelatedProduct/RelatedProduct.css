@@ -9,3 +9,9 @@
 }
 
 
+@media(max-width: 900px){
+    .related > img {
+        width: 100%;
+    }
+}
+

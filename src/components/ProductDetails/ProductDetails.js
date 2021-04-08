@@ -75,7 +75,7 @@ const ProductDetails = () => {
                     <p className="details__price">UGX 118,400 <span>-20%</span></p>
                     <p className="details__discount">UGX 148,000</p>
                 </div>
-                <div className="details_quantity">
+                <div className="details__quantity">
                     <span className="to-cart"> <span className="minus">-</span> <span className="quantity">1</span> <span className="add">+</span> </span>
                 </div>
                 <div className="details__cta">

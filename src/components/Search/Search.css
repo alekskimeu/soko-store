@@ -9,6 +9,12 @@
     transform: translate(-50%, -50%);
 }
 
+@media(max-width: 600px){
+    .search {
+        display: none;
+    }
+}
+
 .search > input {
     padding: .5rem;
     flex: .3;
