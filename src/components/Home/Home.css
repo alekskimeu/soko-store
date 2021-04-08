@@ -2,3 +2,7 @@
     display: flex;
     justify-content: space-between;
 }
+
+.home__bottom {
+    position: relative;
+}
