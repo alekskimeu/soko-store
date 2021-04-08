@@ -50,7 +50,7 @@
     margin-top: .5rem;
 }
 
-.account__login > p {
+.account__login  p {
     border: 1px solid gray;
     border-right: none;
     padding: .4rem;
@@ -59,7 +59,7 @@
     font-weight: bold;
 }
 
-.account__login > input {
+.account__login  input {
     border: 1px solid gray;
     border-top-right-radius: .3rem;
     border-bottom-right-radius: .3rem;
@@ -70,7 +70,7 @@
     outline-width: 0;
 }
 
-.account__login > button {
+.account__login button {
     flex: .2;
     margin-left: 1rem;
     border: none;
@@ -120,6 +120,16 @@
     flex: .5;
 }
 
+@media(max-width: 600px){
+    .delivery__cards {
+        flex-direction: column;
+    }
+
+    .delivery__cards .card:first-child {
+        margin-bottom: 1rem;
+    }
+}
+
 .delivery__cards .card-new {
     flex: .5;
     display: flex;
@@ -143,6 +153,8 @@
     display: flex;
 }
 
+
+
 .change-delivery > p {
     margin-right: 1rem;
 }
@@ -162,4 +174,14 @@
     font-weight: bold;
     border-radius: .3rem;
     border: none;
+}
+
+@media(max-width: 600px){
+    .change-delivery {
+        flex-direction: column;
+    }
+
+    .add-address {
+        margin: 1rem 0;
+    }
 }

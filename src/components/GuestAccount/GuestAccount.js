@@ -43,15 +43,17 @@ const GuestAccount = () => {
                         <>
                     <small>Mobile Number</small>
                         <div className="account__login">
-                        <p>+256</p>
-                        <input type="number" onChange={(e) => setPhone(e.target.value)} placeholder="Enter mobile number" />
-                        <button className="login-btn"
-                            onClick={userLogin}
-                            style={{
-                                backgroundColor: phone.length === 10 ?
-                                    "var(--secondary-color)" : "lightgray",
-                                color: phone.length === 10 ? "var(--main-color)" : "#fff"
-                            }}>Login</button>
+                            <p>+256</p>
+                            {/* <div> */}
+                                <input type="number" onChange={(e) => setPhone(e.target.value)} placeholder="Enter mobile number" />
+                                <button className="login-btn"
+                                    onClick={userLogin}
+                                    style={{
+                                        backgroundColor: phone.length === 10 ?
+                                        "var(--secondary-color)" : "lightgray",
+                                        color: phone.length === 10 ? "var(--main-color)" : "#fff"
+                                        }}>Login</button>
+                            {/* </div> */}
                         </div>
                     </>
                         : null}
