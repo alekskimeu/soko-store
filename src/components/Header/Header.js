@@ -13,10 +13,12 @@ const Header = () => {
     return (
         <div className="header">
             <div className="container">
-            <div className="header__left">
+                <div className="header__left">
+                <Link to="/"> 
                 <IconButton className="logo">
-                    <HomeIcon />
-                </IconButton>
+                   <HomeIcon />
+                    </IconButton>
+                </Link>
                 <div className="header__leftInfo">
                     <h5>Target</h5>
                     <p>Cham Towers, Plot 12 Nkruma Rd, Kampala, Ug</p>

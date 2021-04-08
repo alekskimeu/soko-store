@@ -41,6 +41,10 @@
     align-items: flex-end;
 }
 
+.product__info a {
+    color: black;
+}
+
 .price {
     font-size: 14px;
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Category from './Category/Category'
 
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
@@ -15,7 +16,9 @@ const Categories = () => {
             <Category title="Home" number={24} active={false}/>
             <Category title="Kids" number={9} active={false} />
             
-            <a href="" className="more-categories">View all categories <ArrowForwardIosIcon /> </a>
+            <Link to="/all-categories" className="more-categories">View all categories
+                <ArrowForwardIosIcon /> 
+            </Link>
         </div>
     )
 }

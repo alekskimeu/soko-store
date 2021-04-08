@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { IconButton } from '@material-ui/core'
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
@@ -81,9 +82,9 @@ const ProductDetails = () => {
                     <button className="cta__bag">
                         Add to Bag
                     </button>
-                    <button className="cta__buy">
+                    <Link to="/guest-bag" className="cta__buy">
                         Buy Now
-                    </button>
+                    </Link>
                 </div>
             </div>
             </div>

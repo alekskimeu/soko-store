@@ -1,0 +1,16 @@
+.singleCategory {
+    position: relative;
+}
+
+.singleCategory img{
+    width: 100%;
+    height: 250px;
+    border-radius: .5rem;
+}
+
+.singleCategory h4 {
+    position: absolute;
+    bottom: 1rem;
+    color: #fff;
+    left: .5rem;
+}

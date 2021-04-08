@@ -11,6 +11,8 @@ export { default as GuestBag } from './GuestBag/GuestBag'
 export { default as GuestAccount } from './GuestAccount/GuestAccount'
 export { default as CheckOut } from './CheckOut/CheckOut'
 export { default as Services } from './Services/Services'
+export { default as AllCategories } from './AllCategories/AllCategories'
+
 export { default as Footer } from './Footer/Footer'
 
 

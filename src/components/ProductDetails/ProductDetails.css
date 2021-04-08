@@ -104,7 +104,8 @@
     background-color:  var(--secondary-color);
     color: var(--main-color);
     border: none;
-    padding: .8rem 4rem;
+    padding: .6rem 4rem;
+    font-weight: bold;
 }
 
 .details__discount {
