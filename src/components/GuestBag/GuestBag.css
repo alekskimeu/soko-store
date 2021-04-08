@@ -29,3 +29,13 @@
     font-weight: bold;
     color: gray;
 }
+
+@media(max-width: 700px){
+    .guest {
+        flex-direction: column;
+    }
+
+    .guestBag {
+        margin-top: 2rem;
+    }
+}

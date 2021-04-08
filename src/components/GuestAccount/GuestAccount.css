@@ -5,6 +5,12 @@
     flex-direction: column;
 }
 
+@media(max-width: 700px){
+    .guestAccount {
+        padding: 1rem;
+    }
+}
+
 .deliveryAddress {
     margin: 4rem 0;
 }
