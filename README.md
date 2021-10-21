@@ -9,34 +9,7 @@ An e-commerce Frontend web application.
 - Product details
 - Checkout
 
-## Screenshots
 
-#### Homepage
-![App Screenshot](https://raw.githubusercontent.com/alekskimeu/soko-store-front/master/src/assets/images/home.png)
-
-
-#### Product Details
-![App Screenshot](https://raw.githubusercontent.com/alekskimeu/soko-store-front/master/src/assets/images/details.png)
-
-
-#### Checkout
-![App Screenshot](https://raw.githubusercontent.com/alekskimeu/soko-store-front/master/src/assets/images/checkout.png)
-
-
-### Order
-![App Screenshot](https://raw.githubusercontent.com/alekskimeu/soko-store-front/master/src/assets/images/order.png)
-
-
-### Thank you
-![App Screenshot](https://raw.githubusercontent.com/alekskimeu/soko-store-front/master/src/assets/images/thankyou.png)
-
-
-## Tech Stack
-
-React, CSS, Material UI icons
-
-
-  
 ## Run Locally
 
 Clone the project
@@ -62,6 +35,33 @@ Start the server
 ```bash
   npm run start
 ```
+
+
+## Screenshots
+
+#### Homepage
+![App Screenshot](https://raw.githubusercontent.com/alekskimeu/soko-store-front/master/src/assets/images/home.png)
+
+
+#### Product Details
+![App Screenshot](https://raw.githubusercontent.com/alekskimeu/soko-store-front/master/src/assets/images/details.png)
+
+
+#### Checkout
+![App Screenshot](https://raw.githubusercontent.com/alekskimeu/soko-store-front/master/src/assets/images/checkout.png)
+
+
+### Order
+![App Screenshot](https://raw.githubusercontent.com/alekskimeu/soko-store-front/master/src/assets/images/order.png)
+
+
+### Thank you
+![App Screenshot](https://raw.githubusercontent.com/alekskimeu/soko-store-front/master/src/assets/images/thankyou.png)
+
+
+## Tech Stack
+
+React, CSS, Material UI icons
 
   
 ## Contributing
